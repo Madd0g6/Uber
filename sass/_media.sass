@@ -170,8 +170,11 @@
 @media (max-width: 575px)
 	nav
 		height: 30px
+	header
+		height: 30px
 	.subheader
 		height: 60px
+		top: 30px
 		&_official
 			display: none
 		&_logo
@@ -185,7 +188,7 @@
 			font-size: 10px
 			margin-top: 4px
 			&:hover
-				background-image: linear-gradient(to top, $main-color 0%, #4c6aff 100%)
+				background-image: linear-gradient(to top, $main-color 0%, #4ce2ff 100%)
 	.promo
 		min-height: 400px
 		padding: 102px 0 34px 0
@@ -205,9 +208,15 @@
 			height: 50px
 			margin-top: 70px
 			&:hover
-				background-image: linear-gradient(to top, $main-color 0%, #4c6aff 100%)
+				background-image: linear-gradient(to top, $main-color 0%, #4ce2ff 100%)
 	.menu
 		width: 85%
+		&_items
+			width: 100%
+			text-align: center
+			padding: 2px 0
+		&_links
+			display: block
 	.title
 		margin-top: 16px
 		font-size: 16px
